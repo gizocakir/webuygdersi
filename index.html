@@ -70,13 +70,21 @@
         <td rowspan="3">1</td>
     </tr>
 </table>-->
-<form name="gonderForm" method="POST" action="iletisim.html">
+<!--<form name="gonderForm" method="POST" action="iletisim.html">
     <label>Kullanıcı Adı:</label><input type="text">
     <input type="password">
     <input type="submit">
 </form>
 <div>
     Bu bir divdir
-</div>
+</div>-->
+<form name="gonderForm" method="POST" action="kaydet.php">
+    <label>Cinsiyet:</label><input type="text">
+    <input type="text" name="adı" id="adi">
+    <input type="radio" name="erkek" id="erkek" value="erkek">
+    <label for="erkek">Erkek</label>
+    <input type="radio" name="kadin" id="kadin" value="kadin">
+    <label for="kadin">Kadın</label>
+</form>
 </body>
 </html>
